@@ -10,9 +10,15 @@ import { cn } from "@/lib/utils";
 
 const mockProfile = {
   username: "creativebee",
+<<<<<<< HEAD
   displayName: "Dev",
   bio: "🐝 Finding joy in every hobby | Painting enthusiast | Aspiring baker | Mountain lover",
   avatar: "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=200&h=200&fit=crop",
+=======
+  displayName: "Sarah Chen",
+  bio: "🐝 Finding joy in every hobby | Painting enthusiast | Aspiring baker | Mountain lover",
+  avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+>>>>>>> 341cf735da52260ed6e4908981d32b93d46e8c29
   nectarBalance: 2847,
   following: 342,
   followers: 1.2,
@@ -172,4 +178,8 @@ const Profile = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Profile;
+=======
+export default Profile;
+>>>>>>> 341cf735da52260ed6e4908981d32b93d46e8c29

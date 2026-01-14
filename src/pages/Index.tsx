@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -18,3 +19,17 @@ const Index = () => {
 };
 
 export default Index;
+=======
+import { AppLayout } from "@/layout/AppLayout";
+import { HiveFeed } from "@/features/hive/HiveFeed";
+
+const Index = () => {
+  return (
+    <AppLayout hideNav={false}>
+      <HiveFeed />
+    </AppLayout>
+  );
+};
+
+export default Index;
+>>>>>>> 341cf735da52260ed6e4908981d32b93d46e8c29
