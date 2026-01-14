@@ -1,0 +1,20 @@
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[32m✓[39m 31 modules transformed.
+[31mx[39m Build failed in 550ms
+[31merror during build:
+[31m[vite]: Rollup failed to resolve import "@radix-ui/react-tooltip" from "C:/Users/deven/Downloads/hobby-hive-main/hobby-hive-main/src/components/ui/tooltip.tsx".
+This is most likely unintended because it can break your application at runtime.
+If you do want to externalize this module explicitly add it to
+`build.rollupOptions.external`[31m
+    at viteWarn (file:///C:/Users/deven/Downloads/hobby-hive-main/hobby-hive-main/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:65855:17)
+    at onwarn (file:///C:/Users/deven/Downloads/hobby-hive-main/hobby-hive-main/node_modules/@vitejs/plugin-react-swc/index.js:90:7)
+    at onRollupWarning (file:///C:/Users/deven/Downloads/hobby-hive-main/hobby-hive-main/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:65885:5)
+    at onwarn (file:///C:/Users/deven/Downloads/hobby-hive-main/hobby-hive-main/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:65550:7)
+    at file:///C:/Users/deven/Downloads/hobby-hive-main/hobby-hive-main/node_modules/rollup/dist/es/shared/node-entry.js:19393:13
+    at Object.logger [as onLog] (file:///C:/Users/deven/Downloads/hobby-hive-main/hobby-hive-main/node_modules/rollup/dist/es/shared/node-entry.js:21119:9)
+    at ModuleLoader.handleInvalidResolvedId (file:///C:/Users/deven/Downloads/hobby-hive-main/hobby-hive-main/node_modules/rollup/dist/es/shared/node-entry.js:20008:26)
+    at file:///C:/Users/deven/Downloads/hobby-hive-main/hobby-hive-main/node_modules/rollup/dist/es/shared/node-entry.js:19966:26[39m
